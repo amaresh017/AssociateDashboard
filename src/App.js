@@ -11,8 +11,7 @@ class AssociateNames extends React.Component {
   render(){
     return (
       <div align="left">
-        Listing NHT Associates Names : 
-        <br/>
+        <h3>Listing NHT Associate Names : </h3>
         <ol> {list_names} </ol>
       </div>  
     );
@@ -44,9 +43,10 @@ class Clock extends React.Component {
 
   render() {
     return (
-      <div align="right">
-        <h2>Current Time(India) :</h2>
+      <div align="center">
+        <h2>Current Time(India)</h2>
         <h3>{this.state.date.toLocaleTimeString()}</h3>
+        <hr/>
       </div>
     );
   }
